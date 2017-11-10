@@ -690,6 +690,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 1238822505531160, guid: 06ad507facd2f7e4f9bd7ff790b130c8, type: 2}
+      propertyPath: m_TagString
+      value: SmallCloudTag
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 06ad507facd2f7e4f9bd7ff790b130c8, type: 2}
   m_IsPrefabParent: 0
@@ -966,6 +970,10 @@ Prefab:
       propertyPath: m_Name
       value: SmallStarPrefab (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1277181263579812, guid: 201bcd83e1c587440aff7b969f598656, type: 2}
+      propertyPath: m_TagString
+      value: SmallStarTag
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 201bcd83e1c587440aff7b969f598656, type: 2}
   m_IsPrefabParent: 0
@@ -1062,7 +1070,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4146664878284760, guid: f5869a0f992dc874fb8b6a6459632d9e, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -2.45
+      value: -1.91
       objectReference: {fileID: 0}
     - target: {fileID: 4146664878284760, guid: f5869a0f992dc874fb8b6a6459632d9e, type: 2}
       propertyPath: m_LocalPosition.y
@@ -1090,7 +1098,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4146664878284760, guid: f5869a0f992dc874fb8b6a6459632d9e, type: 2}
       propertyPath: m_RootOrder
-      value: 12
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1157012403860516, guid: f5869a0f992dc874fb8b6a6459632d9e, type: 2}
+      propertyPath: m_TagString
+      value: LargeStarTag
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f5869a0f992dc874fb8b6a6459632d9e, type: 2}
@@ -1648,7 +1660,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4061295586585824, guid: baf68a121ebd4cc438c1e370d1e702f3, type: 2}
       propertyPath: m_RootOrder
-      value: 10
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1788383469284018, guid: baf68a121ebd4cc438c1e370d1e702f3, type: 2}
+      propertyPath: m_TagString
+      value: LargeCloudTag
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: baf68a121ebd4cc438c1e370d1e702f3, type: 2}
