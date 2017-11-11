@@ -9,7 +9,7 @@ public class BrightnessRegulator : MonoBehaviour {
     // Emissionの最小値
     private float minEmission = 0.3f;
     // Emissionの強度
-    private float magEmission = 0.2f;
+    private float magEmission = 2.0f;
     // 角度
     private int degree = 0;
     //発光速度
