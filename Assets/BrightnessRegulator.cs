@@ -26,11 +26,11 @@ public class BrightnessRegulator : MonoBehaviour {
         {
             this.defaultColor = Color.white; //thisはこのクラス内にある変数を使いますよとわかりやすくするために使う（この場合、BrightnessRegulatorクラス）
         }
-        if (tag == "LargeStarTag")
+        else if (tag == "LargeStarTag")
         {
             this.defaultColor = Color.yellow;
         }
-        if (tag == "SmallCloudTag" || tag == "LargeCloudTag")
+        else if (tag == "SmallCloudTag" || tag == "LargeCloudTag")
         {
             this.defaultColor = Color.blue;
         }
