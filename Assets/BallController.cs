@@ -10,6 +10,15 @@ public class BallController : MonoBehaviour {
 
     //ゲームオーバを表示するテキスト
     private GameObject gameoverText;
+    
+    //角度
+    private int degree = 0;
+
+    //発光速度
+    private int speed = 10;
+
+    // ターゲットのデフォルトの色
+    Color defaultColor = Color.white;
 
     // Use this for initialization
     void Start () {
