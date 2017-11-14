@@ -1482,6 +1482,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1277181263579812, guid: 201bcd83e1c587440aff7b969f598656, type: 2}
+      propertyPath: m_TagString
+      value: SmallStarTag
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 201bcd83e1c587440aff7b969f598656, type: 2}
   m_IsPrefabParent: 0
@@ -1539,6 +1543,10 @@ Prefab:
     - target: {fileID: 4584725967673272, guid: 201bcd83e1c587440aff7b969f598656, type: 2}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277181263579812, guid: 201bcd83e1c587440aff7b969f598656, type: 2}
+      propertyPath: m_TagString
+      value: SmallStarTag
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 201bcd83e1c587440aff7b969f598656, type: 2}
@@ -1776,9 +1784,10 @@ GameObject:
   - component: {fileID: 1524444138}
   - component: {fileID: 1524444142}
   - component: {fileID: 1524444143}
+  - component: {fileID: 1524444144}
   m_Layer: 0
   m_Name: Ball
-  m_TagString: Untagged
+  m_TagString: SmallStarTag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1875,22 +1884,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57df196f115fcdf478b0652fa1ebac3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1584472303 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1157012403860516, guid: f5869a0f992dc874fb8b6a6459632d9e,
-    type: 2}
-  m_PrefabInternal: {fileID: 755580343}
---- !u!114 &1584472304
+--- !u!114 &1524444144
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1584472303}
+  m_GameObject: {fileID: 1524444137}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5bc936ff2e165d64bae9e1656586497b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1584472303 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1157012403860516, guid: f5869a0f992dc874fb8b6a6459632d9e,
+    type: 2}
+  m_PrefabInternal: {fileID: 755580343}
 --- !u!114 &1584472309
 MonoBehaviour:
   m_ObjectHideFlags: 0
